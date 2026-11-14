@@ -16,6 +16,15 @@ riesgo-cv/
 └── SCORE2_v1.6_original.html  ← copia de seguridad del archivo original
 ```
 
+## Publicación actual
+- Web: https://drastudillopablo.github.io/riesgo-cv/
+- Código: https://github.com/drastudillopablo/riesgo-cv (rama `main`); la web se sirve desde la rama `gh-pages`, que contiene solo `www/`.
+
+Para publicar un cambio:
+1. Edita los archivos de `www/` y cambia `VERSION` en `www/sw.js`.
+2. `git add -A && git commit -m "Descripción del cambio" && git push`
+3. `npm run publicar`  (equivale a `git subtree push --prefix www origin gh-pages`). En 1–2 minutos está en línea.
+
 ## 1 · App web instalable (PWA) — la vía más rápida
 Sube la carpeta `www/` a cualquier hosting estático con **https** (GitHub Pages, Netlify, Cloudflare Pages o el servidor del hospital).
 - **iPhone/iPad (Safari):** Compartir → «Añadir a pantalla de inicio».
