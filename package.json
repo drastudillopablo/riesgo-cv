@@ -1,0 +1,25 @@
+{
+  "name": "riesgo-cv",
+  "version": "1.6.0",
+  "private": true,
+  "description": "Riesgo cardiovascular global y objetivos lipídicos (SCORE2, Lp(a), LDLc/no-HDLc/ApoB) · web instalable y app iOS/Android",
+  "scripts": {
+    "publicar": "git subtree push --prefix www origin gh-pages",
+    "serve": "python3 -m http.server 8080 --directory www",
+    "cap:add:ios": "cap add ios",
+    "cap:add:android": "cap add android",
+    "cap:sync": "cap sync",
+    "cap:ios": "cap sync ios && cap open ios",
+    "cap:android": "cap sync android && cap open android",
+    "icons": "capacitor-assets generate --iconBackgroundColor '#153d47' --splashBackgroundColor '#f2f6f5'"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.0.0"
+  }
+}

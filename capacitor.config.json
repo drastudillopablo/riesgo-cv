@@ -1,0 +1,8 @@
+{
+  "appId": "es.medicinainterna.riesgocv",
+  "appName": "Riesgo CV",
+  "webDir": "www",
+  "backgroundColor": "#f2f6f5",
+  "ios": { "contentInset": "never", "limitsNavigationsToAppBoundDomains": false },
+  "android": { "allowMixedContent": false }
+}

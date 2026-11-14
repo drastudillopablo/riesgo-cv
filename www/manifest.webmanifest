@@ -1,0 +1,20 @@
+{
+  "name": "Riesgo cardiovascular y objetivos lipídicos",
+  "short_name": "Riesgo CV",
+  "description": "SCORE2 · SCORE2-OP · SCORE2-Diabetes · Lp(a) · objetivos de LDLc, no-HDLc y ApoB · propuesta terapéutica. Funciona sin conexión y no envía datos.",
+  "lang": "es",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f2f6f5",
+  "theme_color": "#153d47",
+  "categories": ["medical", "health"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
