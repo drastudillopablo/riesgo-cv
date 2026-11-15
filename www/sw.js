@@ -1,5 +1,5 @@
 // Service worker: caché local para uso sin conexión. No hace peticiones a terceros ni guarda datos de pacientes.
-const VERSION = 'riesgo-cv-v1.6.0';
+const VERSION = 'riesgo-cv-v1.6.1';
 const ASSETS = [
   './', 'index.html', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png',
