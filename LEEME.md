@@ -49,3 +49,11 @@ Antes de publicar en App Store / Google Play:
 - Cuentas de desarrollador: Apple (99 $/año) y Google Play (25 $ una vez).
 - Las tiendas exigen política de privacidad (la app no recoge datos: indícalo) y, en Apple, revisan especialmente las apps médicas (guía 1.4.1): conviene declarar que es una herramienta de apoyo para profesionales sanitarios, no un producto sanitario certificado, con las fuentes citadas (ya están en la sección Metodología).
 - Si se usa de forma asistencial fuera de tu consulta, valora el marco de producto sanitario (MDR UE 2017/745, software de apoyo a la decisión clínica).
+
+## Validación antes de difundir (v1.7)
+En la app: **Metodología → Validación frente a HeartScore**. Hay 20 casos fijos (SCORE2 en las 4 regiones, SCORE2-OP y SCORE2-Diabetes) con el resultado de la herramienta calculado en directo.
+1. Introduce cada caso en HeartScore (u otra calculadora oficial de la ESC) y escribe el % obtenido en la columna «Calculadora oficial».
+2. La app calcula la diferencia y marca ✔ si es ≤0,5 puntos porcentuales.
+3. «Copiar tabla de validación» copia todo en formato Excel (TSV) para documentarlo.
+
+Los valores introducidos se guardan solo en ese navegador. La tabla «Parámetros y fuente de cada uno» (misma sección) documenta el origen de coeficientes, factores de Lp(a), porcentajes de reducción y criterios de financiación.

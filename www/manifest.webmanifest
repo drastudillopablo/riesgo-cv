@@ -9,8 +9,8 @@
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#f2f6f5",
-  "theme_color": "#153d47",
+  "background_color": "#F3F6F2",
+  "theme_color": "#0B4D2C",
   "categories": ["medical", "health"],
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
